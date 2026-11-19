@@ -11,8 +11,78 @@
   </style>
 </head>
 <body>
-  <h1>Tere! Mina olen Hanna</h1>
-  <p>See leht jõudis serverisse läbi deploy protsessi.</p>
+  
+<style>
+  .homework-card {
+    max-width: 540px;
+    margin: 32px auto;
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(30, 50, 80, 0.08);
+    font-family: Arial, sans-serif;
+    color: #172b4d;
+  }
+
+  .homework-label {
+    display: inline-block;
+    padding: 7px 12px;
+    background: #e8f1ff;
+    color: #2563eb;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .homework-card h2 {
+    margin: 20px 0 12px;
+    font-size: 25px;
+    line-height: 1.3;
+  }
+
+  .homework-card p {
+    color: #475569;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .homework-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 24px;
+  }
+
+  .homework-tags span {
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+</style>
+
+<section class="homework-card">
+  <span class="homework-label">TUNNITÖÖ 02</span>
+
+  <h2>GitHub Actions ja veebilehe avaldamine</h2>
+
+  <p>
+    Selles tunnitöös õppisin, kuidas ühendada
+    veebiserver SSH abil GitHubiga ning
+    automatiseerida veebilehe avaldamist.
+  </p>
+
+  <div class="homework-tags">
+    <span>SSH</span>
+    <span>GitHub Actions</span>
+    <span>HTML</span>
+    <span>CI/CD</span>
+  </div>
+</section>
+
 
   <h2>Märkmed API-st</h2>
   <ul id="notes"><li>(3. kohtumisel tuleb siia API andmed)</li></ul>
