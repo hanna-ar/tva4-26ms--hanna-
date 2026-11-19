@@ -1,7 +1,7 @@
 # 2. kohtumine: paigaldab main-haru kursuseserverisse.
 # Kopeeri oma repos asukohta .github/workflows/deploy.yml
 # Vajalikud secrets: SSH_PRIVATE_KEY, SSH_KNOWN_HOSTS, SERVER_HOST, SERVER_USER, SERVER_PATH
-name: Deploy
+name: Hanna Website Deployment
 
 on:
   push:
